@@ -132,26 +132,36 @@ margin-bottom: 50px skyblue;
 }
 
 /**********Historia**********/
-.white{
-color: white;
-}
+//anidamiento//
 
 .cajaUno {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
   /* height: 50vh; */
-  
   text-align: center;
-  padding-bottom: 200px ;
-}
-
-.borde-bordo {
-  display: flex;
-  flex-flow: row wrap;
+  padding-bottom: 50px;
   
+  .borde-bordo {
+    
+    border: solid rgb(100, 10, 10);
+    padding-left: 1px;
+    
+    .white {
+      color: white;
+
+      
+
+        &:hover{
+          color: crimson;
+          text-decoration: underline;
+        }
+      
+
+      
+      }
+      
+    
+  }
 }
 
-.espacio{
-padding-bottom: 400px;
-}
